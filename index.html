@@ -8,10 +8,30 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+        <style>
+            @media only screen and  (max-device-width: 768px)  {
+                
+                .hidden-sm {
+                    display: none !important;
+                }
+
+                .p-sm-5 {
+                    padding: 1.5em !important;
+                }
+
+                .p-sm-0 {
+                    padding: 0 !important;
+                }
+
+                .block-sm {
+                    display: block !important;
+                }
+            }
+        </style>
     </head>
     <body>
-        <div class="p-36 bg-blue-950 text-gray-100">
-            <div class="flex rounded-lg p-24">
+        <div class="p-36 bg-blue-950 text-gray-100 p-sm-5">
+            <div class="flex rounded-lg p-24 p-sm-5 block-sm">
                 <div>
                     <h1 class="text-4xl font-bold pb-3">hi, there</h1>
                     <h1 class="text-xl font-bold">I'm Ma. Angelica B. Concepcion (Ange)</h1>
@@ -19,19 +39,19 @@
 
                     <p><i class="fa-solid fa-location-arrow"></i>Manila, Philippines</p>
                     
-                    <p> <a href="https://github.com/kateamethyst" target="_blank" class="text-blue-400">@kateamethyst <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></a></p>
+                    <p> <a href="https://github.com/kateamethyst" target="_blank" class="text-blue-400">@kateamethyst</a></p>
                     <p>
                         <a href="https://www.linkedin.com/in/maangelicaconcepcion/" target="_blank" class="flex text-blue-400">
-                            maangelicaconcepcion <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+                            maangelicaconcepcion 
                         </a>
                     </p>
-                    <p>
+                    <p class="pb-16">
                         <a href="assets/resume.pdf" target="_blank" class="flex text-blue-400">
                             View Full Resume <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
                         </a>
                     </p>
                 </div>
-                <div class="pl-5">
+                <div class="pl-5 p-sm-0">
                     <h1 class="font-bold text-xl">Skills</h1>
                     <ul class="flex flex-wrap">
                         <li class="p-1"><i class="devicon-php-plain colored text-6xl"></i></li>
@@ -81,7 +101,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="pb-24 px-24">
+            <div class="pb-24 px-24 p-sm-5">
                 <h1 class="font-bold text-xl">All Projects</h1>
                 <table class="table-auto w-full">
                     <tbody>
@@ -89,58 +109,58 @@
                             <td class="py-4 pr-4">Year</td>
                             <td class="py-4 pr-4">Projects</td>
                             <td class="py-4 pr-4">Made at</td>
-                            <td class="flex py-4 pr-4">Built with</td>
-                            <td class="py-4 pr-4">Link</td>
+                            <td class="flex py-4 pr-4 hidden-sm">Built with</td>
+                            <td class="py-4 pr-4 hidden-sm">Link</td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2023</td>
-                            <td class="py-4 pr-4">Email Campaigns</td>
+                            <td class="py-4 pr-4"><a href="https://contactout.com/email-campaigns" target="_blank">Email Campaigns</a></td>
                             <td class="py-4 pr-4">ContactOut</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Inertia</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">React</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">TypeScript</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Tailwind</span>
                             </td>
-                            <td class="py-4 pr-4"><a href="https://contactout.com/email-campaigns" target="_blank">contactout.com/email-campaigns <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
+                            <td class="py-4 pr-4 hidden-sm"><a href="https://contactout.com/email-campaigns" target="_blank">contactout.com/email-campaigns <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2022</td>
                             <td class="py-4 pr-4">Shopify Store Plugins</td>
                             <td class="py-4 pr-4">MindArc</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Lumen</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">React</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Vue</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr- hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2022</td>
-                            <td class="py-4 pr-4">Product Rental</td>
+                            <td class="py-4 pr-4"><a href="https://www.rhythmsnowsports.com.au/pages/hire" target="_blank">Product Rental</a></td>
                             <td class="py-4 pr-4">MindArc</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                             </td>
-                            <td class="py-4 pr-4"><a href="https://www.rhythmsnowsports.com.au/pages/hire" target="_blank">rhythmsnowsports.com.au/pages/hire <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></a></td>
+                            <td class="py-4 pr-4 hidden-sm"><a href="https://www.rhythmsnowsports.com.au/pages/hire" target="_blank">rhythmsnowsports.com.au/pages/hire <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></a></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2022</td>
                             <td class="py-4 pr-4">Honda Car Portal</td>
                             <td class="py-4 pr-4">Xiclab</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Vue</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Vuetify</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2021</td>
-                            <td class="py-4 pr-4">ATS and Invoicing</td>
+                            <td class="py-4 pr-4"><a href="https://portal.penbrothers.com/" target="_blank"></a>ATS and Invoicing</a></td>
                             <td class="py-4 pr-4">Penbrothers</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">NodeJs</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">ExpressJs</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">React</span>
@@ -148,103 +168,103 @@
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">TypeScript</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Tailwind</span>
                             </td>
-                            <td><a href="https://portal.penbrothers.com/" target="_blank">portal.penbrothers.com <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
+                            <td class="hidden-sm"><a href="https://portal.penbrothers.com/" target="_blank">portal.penbrothers.com <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2020</td>
+                            <td class="py-4 pr-4"><a href="http://senditout.com/" target="_blank"></a>SenditOut</a></td>
                             <td class="py-4 pr-4">SenditOut</td>
-                            <td class="py-4 pr-4">SenditOut</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Wordpress</span>
                             </td>
-                            <td class="py-4 pr-4"><a href="http://senditout.com/" target="_blank">senditout.com <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
+                            <td class="py-4 pr-4 hidden-sm"><a href="http://senditout.com/" target="_blank">senditout.com <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-0.5" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2020</td>
                             <td class="py-4 pr-4">ATS</td>
                             <td class="py-4 pr-4">SenditOut</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Vue</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Tailwind</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2019</td>
                             <td class="py-4 pr-4">The Better Cleaner</td>
                             <td class="py-4 pr-4">BeeStripe</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Wordpress</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2018-2019</td>
                             <td class="py-4 pr-4">Internal Reporting Application</td>
                             <td class="py-4 pr-4">BeeStripe</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">CodeIgniter</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Vue</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Python</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Pandas</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2017</td>
                             <td class="py-4 pr-4">VaultProtect</td>
                             <td class="py-4 pr-4">BeeStripe</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Wordpress</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2017</td>
                             <td class="py-4 pr-4">LoginAlarm</td>
                             <td class="py-4 pr-4">BeeStripe</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Wordpress</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2017</td>
                             <td class="py-4 pr-4">Dynamic Form Mobile App</td>
                             <td class="py-4 pr-4">SynApps</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Ionic</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Laravel</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">React</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">Anular</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2016</td>
                             <td class="py-4 pr-4">Cafe24 Analytics (Notipop & Trending)</td>
                             <td class="py-4 pr-4">SimplexInternet</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">PHP</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">VanillaJs</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">jQuery</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                         <tr class="border-b border-slate-300/10">
                             <td class="py-4 pr-4">2016</td>
                             <td class="py-4 pr-4">Cafe24 Certification Management</td>
                             <td class="py-4 pr-4">SimplexInternet</td>
-                            <td class="flex py-4 pr-4 flex-wrap">
+                            <td class="flex py-4 pr-4 flex-wrap hidden-sm">
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">PHP</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">VanillaJs</span>
                                 <span class="py-1 px-3 bg-blue-800 text-blue-300 rounded-full text-sm mx-1 mb-2">jQuery</span>
                             </td>
-                            <td class="py-4 pr-4"></td>
+                            <td class="py-4 pr-4 hidden-sm"></td>
                         </tr>
                     </tbody>
                   </table>
